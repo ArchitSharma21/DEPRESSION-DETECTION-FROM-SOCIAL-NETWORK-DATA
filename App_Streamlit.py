@@ -7,7 +7,6 @@ warnings.filterwarnings("ignore")
 # EDA Pkgs
 import pandas as pd
 import numpy as np
-import pandas as pd
 import tweepy
 import json
 from tweepy import OAuthHandler
@@ -15,9 +14,8 @@ import re
 import textblob
 from textblob import TextBlob
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-import openpyxl
 import time
-import tqdm
+
 
 #To Hide Warnings
 st.set_option('deprecation.showfileUploaderEncoding', False)
